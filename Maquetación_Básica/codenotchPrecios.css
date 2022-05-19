@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.todaPantalla{
+    height: 90%;
+    background-color: white;
+}
+/*Menú*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    width: 100vw;
+    font-size: 200%;
+    height: 10%;
+
+}
+.menu__codenotch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5%;
+    font-size: 150%;
+    width: 50%;
+}
+.menu__enlaces{
+    margin-top: 0.5%;
+    font-size: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Footer*/
+.contacto__footerPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    color: white;
+    background-color: black;
+
+}
+.contacto__footer{
+    background-color: black;
+}
+.contacto__footer--parte1{
+    background-color: black;
+    width: 30%;
+}
+.contacto__footer--parte2{
+    background-color: black;
+    width: 30%;
+}
+.contacto__footer--parte3{
+    background-color: black;
+    width: 30%;
+}
+.contacto__footer--redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Precios*/
+
+.preciosPadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.precios__imagen{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+.precios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.precios__curso{
+
+}
+.precios__curso2{
+
+}
+.precios__curso3{
+
+}
+.precios__curso--titulo{
+    font-weight: 900;
+    font-size: 200%;
+}
+.precios__curso--texto{
+    font-weight: 600;
+}
+.precios__curso--linea{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedorPadre{
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Menú*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(0, 89, 255);
+    width: 100vw;
+    font-size: 200%;
+    height: 10%;
+
+}
+.menu__codenotch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5%;
+    font-size: 150%;
+    width: 50%;
+}
+.menu__enlaces{
+    margin-top: 0.5%;
+    font-size: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Contacto*/
+.todaPantalla{
+    height: 90%;
+    background-color: rgb(0, 89, 255);
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 100vw;
+}
+
+/*Contacto formulario*/
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+.contacto__formulario1{
+    width: 65%;
+}
+.contacto__imagen{
+    width: 50%;
+}
+.contacto__formulario--titulo{
+    font-size: 300%;
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+.contacto__formulario--frase{
+    font-size: 120%;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+.contacto__formulario--linea{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin-top: 5%;
+}
+.contacto__formulario--texto{
+    font-weight: 900;
+}
+.contacto__formulario--heLeido{
+    margin-bottom: 3%;
+}
+.contacto_formulario--botonPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blue;
+}
+.contacto__formulario--boton{
+    font-weight: 900;
+    background-color: blue;
+}
+
+/*Contacto imagen*/
+.contacto__imagen{
+    width: 50%;
+}
+
+/*Footer*/
+.contacto__footerPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    color: white;
+    background-color: black;
+
+}
+.contacto__footer{
+    background-color: black;
+}
+.contacto__footer--parte1{
+    background-color: black;
+    width: 30%;
+}
+.contacto__footer--parte2{
+    background-color: black;
+    width: 30%;
+}
+.contacto__footer--parte3{
+    background-color: black;
+    width: 30%;
+}
+.contacto__footer--redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primero{
+    display: flex;
+    flex-direction: row;
+    border: 4px solid rgb(233, 221, 221);
+    height: 100vh; 
+    width: 40vw;
+    margin: auto;
+
+
+}
+
+/*Parte1*/
+
+.parte1{
+    background-color: rgb(0, 140, 255);
+    width: 30%;
+}
+.parte1__foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    margin-top: 10%;
+    
+}
+img{
+    border-radius: 50%;
+    width: 80%;
+}
+.parte1__infoPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.parte1__info{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+.parte1__info--letra{
+    color: white;
+    margin-top: 15%;
+    margin-right: 3%; 
+    padding: 10px;
+}
+.parte1__info--linea{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+}
+.parte1__info--letra1{
+    color: white;
+    margin-top: 10%;
+    
+
+}
+.parte1__info--letra2{
+    color: white;
+    margin-top: 10%;
+    font-size: 120%;
+  
+}
+.parte1__info--linea2{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin-top: 10%;
+}
+.parte1__info--letra3{
+    color: white;
+    margin-top: 10%;
+    margin-right: 30%;
+}
+.parte1__info--letra4{
+    color: white;
+    margin-top: 10%;
+}
+.parte1__info--linea3{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin-top: 10%;
+}
+.parte1__info--letra5{
+    color: white;
+    margin-top: 10%;
+    margin-right: 30%;
+}
+.parte1_contacto{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+
+}
+.parte1_contactoImagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+}
+.parte1_contactoImagen1{
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.parte1_contactoImagen2{
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.parte1_contactoImagen3{
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.parte1_contactoTexto{
+    color: white;
+}
+
+/*Parte2*/
+
+.parte2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.parte2Hija{
+    width: 80%;
+    padding-top: 10%;
+}
+.parte2_nombre--nombre{
+    font-size: 300%;
+    margin-top: 15%;
+}
+.parte2_nombre--job{
+    margin-top: 15%;
+    font-size: 150%;
+}
+.parte2_nombre--linea{
+    background-color: black;
+    height: 2px;
+    width: 100%;  
+}
+.parte2_experiencia--titulo{
+    margin-top: 10%;
+    font-size: 150%;
+}
+.parte2_experiencia--titulo{
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+.parte2_experiencia--dato1{
+    font-weight: 800;
+}
+.parte2_experiencia--linea{
+    margin-top: 5%;
+    background-color: black;
+    height: 2px;
+    width: 100%;  
+}
+.parte2_datos--linea{
+    margin-top: 5%;
+    background-color: black;
+    height: 2px;
+    width: 100%; 
+}
