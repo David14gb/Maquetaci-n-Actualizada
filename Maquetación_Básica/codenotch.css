@@ -94,6 +94,7 @@ a{
     border: 5px solid black;
     margin: center;
     margin-bottom: 10%;
+    padding: 6px;
 }
 .landing__texto1{
     font-weight: 900;
@@ -108,4 +109,5 @@ a{
     background-color: black;
     border: 2px solid white;
     margin-bottom: 10%;
+    padding: 6px;
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agencia.css">
+    <title>Agencia</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="imagen">
+            <img src="Assets/agenciaRojo.jpg" alt="Imagen" class="cabeceraImagen">
+            <img src="Assets/agenciaRojo.jpg" alt="Imagen" class="cabeceraImagen">
+            <img src="Assets/agenciaRojo.jpg" alt="Imagen" class="cabeceraImagen">
+            <img src="Assets/agenciaRojo.jpg" alt="Imagen" class="cabeceraImagen">        </div>
+        <nav class="cabecera">
+            <a href="agencia.html" class="cabecera__menu">Home</a>
+            <a href="agencia.html" class="cabecera__menu">Descripción</a>
+            <a href="agencia.html" class="cabecera__menu">Tarjetas</a>
+            <a href="agencia.html" class="cabecera__menu">Formulario</a>
+        </nav>
+        <div class="descripcion">
+            <div class="descripcion__empresa">
+                <div class="descripcion__empresa1">
+                <div class="descripcion__empresa--titulo">Agencia Timmy para los amigos</div>
+                <div class="descripcion__empresa--texto">La agencia Timmy fue creada por su fundador, el llamado pequeño Timmy.
+                    El fin con el que se creó fue claro, llevar la ilusión de los viajes a todas las personas que le paguen.
+                </div>
+                    
+                </div>
+                <div class="descripcion__empresa2">
+                    <div class="descripcion__empresa--titulo">¿Dónde viajar con Agencia Timmy?</div>
+                <div class="descripcion__empresa--texto">Los viajes pueden ser desde los destinos más cercanos, por el propio país, 
+                    hasta otros más lejanos en países del extranjero. Llame para informarse y rellene el formulario.
+                </div>
+                </div>
+            </div>    
+        </div>
+        <div class="tarjetasPadre">Tarjetas de viajes
+            <div class="tarjetas">
+                <div class="tarjetas__bloque">
+                    <div class="tarjetas__bloque--primero">
+                        <img src="Assets/agenciaVacaciones.jpg" class="im" alt="Imagen">
+                        <p>Vacaciones para relajarte</p>
+                    </div>
+                    <div class="tarjetas__bloque--segundo">
+                        <img src="Assets/agenciaPlaya.jpg" class="im" alt="Imagen">
+                        <p>Ir a la playa</p>
+                    </div>
+                    <div class="tarjetas__bloque--tercero">
+                        <img src="Assets/agenciaMontaña.jpg" class="im" alt="Imagen">
+                        <p>Ir a la montaña</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formulario">
+            <form action="">
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" placeholder="Nombre" id="nombre" class="formu"><br>
+                    <label for="origen">Origen:</label>
+                    <input type="text" placeholder="Origen" id="origen" class="formu"><br> 
+                    <label for="destino">Destino:</label>
+                    <input type="text" placeholder="destino" id="destino" class="formu"><br> 
+                    <label for="numeroPersonas">Número de personas:</label>
+                    <input type="number" placeholder="numeroPersonas" id="numeroPersonas" class="formu"><br>
+                    <label for="fecha">Fecha:</label> 
+                    <input type="date" placeholder="fecha" id="fecha" class="formu"><br>
+
+                    <button type="button" id="info" onclick="recoger()" class="formu">Solicitar Información</button>
+                    <button type="button" id="nuevo" onclick="recoge()" class="formu">Prueba otro botón</button>
+                    <button type="button"  onclick="filtrado()" class="formu">Filtrar</button>
+                </p>
+            </form>
+            <div id="filtrado">
+                <ul id="lista">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="agencia.js"></script>
+</body>
+</html>

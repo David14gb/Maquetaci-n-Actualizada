@@ -88,7 +88,7 @@ a{
     font-weight: 900;
 }
 .contacto__formulario--heLeido{
-    margin-bottom: 3%;
+    /* margin-bottom: 3%; */
 }
 .contacto_formulario--botonPadre{
     display: flex;
@@ -104,6 +104,10 @@ a{
 /*Contacto imagen*/
 .contacto__imagen{
     width: 50%;
+    
+}
+.hola{
+    width:40%;
 }
 
 /*Footer*/

@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: url("/Maquetación_Básica/Assets/agenciaPalmera.jpg"); 
+    /* background-size: cover;
+    background-position: center; */
+}
+.imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    
+}
+.cabeceraImagen{
+    width: 28.5%;
+
+}
+.cabeceraImagen:hover{
+    border-radius: 10%;
+    border: 6px dashed rgb(226, 77, 77);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(226, 77, 77);
+    border: 2px solid salmon;
+    width: 80%;
+    padding: 1%;
+}
+.cabecera__menu{
+    font-size: 200%;
+
+}
+.cabecera__menu:hover{
+    background-color: white;
+    color: black;
+    border-radius: 30%;
+    border-width: 20%;
+    padding: 1%;
+}
+
+.descripcion{
+    width: 80%;
+    border: 5px solid yellow;
+    padding: 1%;
+    background-color: beige;
+    color: coral;
+}
+.descripcion:hover{
+    border-radius: 10%;
+    border: 6px dashed darkorange;
+}
+.descripcion__empresa{
+    display: flex;
+    flex-direction: row;
+
+}
+.descripcion__empresa--titulo{
+    font-size: 150%;
+    font-weight: 900;
+    padding: 0.5%;
+}
+.descripcion__empresa--texto{
+    font-weight: 700;
+    padding: 1%;
+    width: 50%;
+}
+
+/* Tarjetas */
+.tarjetasPadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: 4px solid orange;
+    background-color: darkorange;
+    padding: 1%;
+    font-size: 400%;
+    color: orangered;
+}
+.tarjetasPadre:hover{
+    border-radius: 10%;
+    border: 6px dashed yellow;
+}
+.tarjetas{
+    font-size: 50%;
+    color:gold;
+
+}
+.tarjetas__bloque{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 0.5%;
+
+}
+img{
+    height: 160px;
+    width: 430px;
+
+}
+.tarjetas__bloque--primero:hover{
+    border-radius: 10%;
+    border: 6px dashed yellow;
+}
+.tarjetas__bloque--segundo:hover{
+    border-radius: 10%;
+    border: 6px dashed yellow;
+}
+.tarjetas__bloque--tercero:hover{
+    border-radius: 10%;
+    border: 6px dashed yellow;
+}
+.im:hover{
+    border-radius: 10%;
+    border: 6px dashed coral;
+}
+/* Formulario */
+
+.formulario{
+    font-size: 200%;
+    font-weight: 900;
+    border: 2px solid black;
+    padding: 1%;   
+    background: url("/Maquetación_Básica/Assets/agenciaRojo.jpg")no-repeat 0px 0px; 
+    background-size: cover;
+    background-position: center;
+    padding: 1%;
+}
+.formulario:hover{
+    background: url("/Maquetación_Básica/Assets/agenciaRojo.jpg")no-repeat 0px 0px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px coral;
+    
+}
+.formu{
+    background-color: bisque;
+    border-color: darkred;
+}
+.formu:focus{
+    border: 5px dashed coral;
+}
+
+button{
+    font-size: 60%;
+    padding: 0.5%;
+}
+
