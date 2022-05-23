@@ -12,7 +12,7 @@ function recoger() {
     let person = {
         "nombre" : nombre,
         "origen": origen,
-        "destino ": destino, 
+        "destino": destino, 
         "numeroPersonas" : numeroPersonas,
         "fecha" : fecha
     }
@@ -20,15 +20,6 @@ function recoger() {
 
     data.push(person);
     console.log(data);
-
-    let lista = " ";
-    for ( let i = 0; i < data.length; i ++){
-
-        lista += `<p>${data[i].nombre} ${data[i].origen}</p>` 
-   }
-
-   document.getElementById("filtrado").innerHTML = lista;
-   console.log(lista);
 
 }
 
@@ -47,13 +38,13 @@ function filtrado(){
 
     let destiny = " "
     //  con metodo filter filtro el array de personas por el destino
-    let res = data.filter(elemento => (elemento.destino == "CANARIAS" || elemento.destino == "MALLORCA" || elemento.destiny == "GALICIA" ));
+    let res = data.filter(elemento => (elemento.destino == "CANARIAS" || elemento.destino == "MALLORCA" || elemento.destino == "GALICIA" ));
     console.log(res);
 
     //  for, para recorrrer el array que devuelve filter y pintarlo en vista
-    for ( let i = 0; i < res.length; i ++){
+    for(let i = 0; i < res.length; i ++){
 
-         destiny += `<p>${res[i].nombre} ${res[i].destino}</p>` 
+        destiny += `<h1>${res[i].nombre} ${res[i].destino}</h1>` 
     }
 
     document.getElementById("filtrado").innerHTML = destiny;
@@ -66,10 +57,18 @@ function recoge(){
     let aData;
     for(let i =0; i<data.length; i++){
 
-        if((data[i].origen == "CANARIAS")||(data[i].origen =="GALICIA")||(data[i].origen == "MALLORCA")){
+        if((data[i].destino == "CANARIAS")||(data[i].destino =="GALICIA")||(data[i].destino == "MALLORCA")){
 
             aData = data[i]
         }
     }
     console.log(aData);
+    let lista = " ";
+    for(let i = 0; i < aData.length; i ++){
+
+        lista += `<p>${aData[i].nombre} ${aData[i].destino}</p>` 
+   }
+
+   document.getElementById("filtrado").innerHTML = lista;
+   console.log(lista);
 }
