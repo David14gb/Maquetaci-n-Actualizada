@@ -8,7 +8,7 @@ a{
     color:white;
 }
 .padre{
-    width: 100vw;
+    width: 98.9vw;
     height: 100vh;
     
 }
@@ -140,6 +140,7 @@ a{
     justify-content: space-around;
     font-size: 300%;
     font-weight: 900;
+    padding: 1%;
     
 }
 .presentacion__bloque3:hover{
