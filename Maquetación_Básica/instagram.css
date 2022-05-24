@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedorPadre{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    /* display: flex;
+    flex-direction: column;    */
+    width: 100vw;
+    height: 100vh;
+    background-color: gainsboro;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90%;
+    gap: 0.5%;
+}
+.imagenMovil{
+    height: 85%;
+    width: 90%;
+    
+}
+
+/* Instagram */
+
+.instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85%;
+    width: 50%;
+    gap: 5%;
+}
+/* Instagram Arriba */
+.instagram__arriba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    gap:15px;
+}
+.imagen__instagram{
+    margin: 32px auto 0;
+    cursor: pointer;
+}
+.registro{
+    /* margin: 32px auto 0; */
+    width: 60%;
+
+}
+.button{
+    background-color: #0095f6;
+    border-radius: 5%;
+    border: 2px solid #0095f6;
+    cursor: pointer;
+    width: 60%;
+    color: white;
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+    color: #0095f6;
+    cursor: pointer;
+}
+.pregunta{
+    cursor: pointer;
+    margin: 10% auto 0;
+}
+/* Instagram Medio */
+.instagram__medio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+    height: 15%;
+    gap: 5%;
+    
+}
+span{
+    color: #0095f6;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* Instagram Abajo */
+.instagram__abajo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap:10%;
+    width: 40%;
+    height: 20%;
+
+}
+.footer__primero{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:1%;
+    
+}
+.footer__segundo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:2%;
+}
+.footer__tercero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:2%;
+}
+.footerPalabras{
+    cursor: pointer;
+    color: dimgrey;
+}
+.tercero__parte{
+    color: dimgrey;
+}
+
+@media screen and (max-width:875px){
+    .imagen{
+        display:none;
+   }
+   .instagram{
+       width: 100%;
+   }
+
+
+}
+@media screen and (max-width:296px){
+    .imagenes{
+        flex-direction: column;
+    }
+
+}
+
+
