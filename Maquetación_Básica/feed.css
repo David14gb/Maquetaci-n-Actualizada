@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedorPadre{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100vw;
+    background-color: #fafafa;
+}
+/* Menú */
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    padding-top: 0.2%;
+    font-size: 150%;
+
+}
+.menu__buscar{
+    background-color: #fafafa;
+    padding-right: 5%;
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+.menu__inicio--sesion{
+    font-size: 100%;
+    background-color: #0095f6;
+    border: 2px solid #0095f6;
+    color: white;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.menu__inicio--registrate{
+    font-size: 100%;
+    background-color: white;
+    color:#0095f6;
+    border: 2px solid white;
+    cursor: pointer;
+}
+/* Descripción */
+.descripcion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+    width: 60%;
+    border: 2px solid blue;
+}
+.descripcion__foto{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    border: 2px solid black;
+    width: 50%;
+    height: 300px;
+}
+.descripcion__d{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 50%;
+}
+.descripcion__d--nombre{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+
+}
+.nombre__codenotch{
+    font-size: 150%;
+}
+.nombre__boton{
+    font-size: 100%;
+    background-color: #0095f6;
+    border: 2px solid #0095f6;
+    color: white;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.descripcion__d--seguidores{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap:10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 120%;
+}
+span{
+    font-weight: 900;
+    
+}
+.descripcion__d--codenotch{
+    font-weight: 900;
+    font-size: 120%;
+
+}
+.descripcion__d--educacion{
+    color: gray;
+    font-size: 120%;
+}
+.descripcion__d--b{
+    font-size: 120%;
+}
+.descripcion__d--linktr{
+    font-size: 120%;
+    color: #0031f6;
+    font-weight: 600;
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.publicado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
