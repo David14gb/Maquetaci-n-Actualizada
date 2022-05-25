@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    width: 100vw;
+    width: 98.9vw;
     background-color: #fafafa;
 }
 /* Menú */
@@ -50,22 +50,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10%;
-    width: 60%;
-    border: 2px solid blue;
+    justify-content: center;
+    /* gap: 5%; */
+    width: 50%;
 }
 .descripcion__foto{
     display: flex;
-    justify-content:flex-end;
-    align-items: flex-start;
-    border: 2px solid black;
+    justify-content:center;
+    align-items:flex-end;
     width: 50%;
-    height: 300px;
+    /* height: 300px; */
+    cursor: pointer;
 }
 .descripcion__d{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     width: 50%;
 }
 .descripcion__d--nombre{
@@ -76,6 +75,7 @@
 }
 .nombre__codenotch{
     font-size: 150%;
+    cursor: pointer;
 }
 .nombre__boton{
     font-size: 100%;
@@ -88,11 +88,12 @@
 .descripcion__d--seguidores{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
-    gap:10%;
+    justify-content: space-between;
+    /* gap:10%; */
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 120%;
+    cursor: pointer;
 }
 span{
     font-weight: 900;
@@ -114,19 +115,63 @@ span{
     font-size: 120%;
     color: #0031f6;
     font-weight: 600;
+    cursor: pointer;
 }
 .story{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .stories{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.story__texto{
+    cursor: pointer;
+}
 .publicado{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 60%;
+    padding: 0.5%;
+}
+.publi{
+    cursor: pointer;
+}
+.linea{
+    height: 2px;
+    width: 45%;
+    background-color: gray;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+}
+.fotos_feed{
+    height: 30%;
+    width: 30%;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1030px){
+    .descripcion__d--seguidores{
+        display:none
+    }
+    .descripcion{
+        flex-direction: column;
+
+    }
+    .story{
+        align-items: flex-start;
+    }
 }
