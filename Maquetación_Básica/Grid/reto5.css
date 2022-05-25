@@ -7,20 +7,33 @@
 .reto5{
     width: 100vw;
     height: 100vh;
-    border: 2px solid red;
-
     display: grid;
     grid-template-areas: 'botones tablero tablero tablero';
 }
 .botones{
     grid-area: botones;
-    border: 2px solid black;
     /* def grid area */
     display: grid;
     grid-template-areas:'contador'
                         'vic1'
                         'vic2'
                         'reset';
+}
+.conta{
+    grid-area: contador;
+    background-color: aquamarine;
+}
+.victoria1{
+    grid-area: vic1;
+    background-color: green;
+}
+.victoria2{
+    grid-area: vic2;
+    background-color: red;
+}
+.resetear{
+    grid-area: reset;
+    background-color: cadetblue;
 }
 .tablero{
     grid-area: tablero;
@@ -49,4 +62,13 @@
 }
 .cas6{
     background-color: black;
+}
+.cas7{
+    background-color: white;
+}
+.cas8{
+    background-color: black;
+}
+.cas9{
+    background-color: white;
 }
