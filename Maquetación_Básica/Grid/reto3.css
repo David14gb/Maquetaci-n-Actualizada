@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reto3{
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr [x4];
+    grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr [y4];
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.header{
+    background-color: black;
+    font-size: 150%;
+    text-align: center;
+    grid-column: x0/x4;
+    grid-row: y0/y1;
+}
+.contenido{
+    background-color: blue;
+    grid-column: x0/x3;
+    grid-row: y1/y3;
+    gap: 10px;
+
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr [x4];
+    grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr [y4];
+}
+.conte{
+    border: 4px solid rgb(255, 255, 255);
+    font-size: 150%;
+    grid-column: x0/x4;
+    grid-row: y0/y1;
+}
+.texto1{
+    border: 2px solid white;
+    grid-column: x0/x3;
+    grid-row: y1/y4;
+}
+.texto2{
+    border: 2px solid white;
+    grid-column: x3/x4;
+    grid-row: y1/y4;
+}
+.menu{
+    background-color: aquamarine;
+    grid-column: x3/x4;
+    grid-row: y1/y3;
+    text-align: center;
+    gap:10px;
+
+    display: grid;
+    grid-template-columns: [x0]0.1fr [x1]1fr [x2]0.1fr;
+    grid-template-rows: [y0]0.5fr [y1]1fr [y2]1fr [y3]1fr [y4]1fr [y5]0.5fr;
+}
+.menu1{
+    border: 3px solid black;
+    font-size: 150%;
+    grid-column: x1/x2;
+    grid-row: y1/y2;
+}
+.menu2{
+    border: 3px solid black;
+    background-color: black;
+    grid-column: x1/x2;
+    grid-row: y2/y3;
+
+}
+.menu3{
+    border: 3px solid black;
+    background-color: black;
+    grid-column: x1/x2;
+    grid-row: y3/y4;
+
+}
+.menu4{
+    border: 3px solid black;
+    background-color: black;
+    grid-column: x1/x2;
+    grid-row: y4/y5;
+
+}
+.footer{
+    background-color: blueviolet;
+    grid-column: x0/x4;
+    grid-row: y3/y4;
+    text-align: center;
+    gap: 10px;
+
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr;
+    grid-template-rows: [y0]1fr [y1]1fr;
+    padding: 1%;
+}
+
+.foot1{
+    border: 3px solid black;
+    grid-column: x0;
+    grid-row: y0/y2;
+}
+.foot2{
+    border: 3px solid black;
+    grid-column: x1;
+    grid-row: y0/y2;
+}

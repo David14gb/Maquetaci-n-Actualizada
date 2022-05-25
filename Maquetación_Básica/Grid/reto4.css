@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reto4{
+    display: grid;
+    grid-template-areas: 
+    "header header input"
+    "aside contenido contenido"
+    "footer footer footer";
+    text-align: center;
+
+}
+.header{
+    background-color: chocolate;
+    grid-area: header;
+    height: 220px;
+    color: white;
+}
+.input{
+    background-color: brown;
+    grid-area: input;
+    height: 220px;
+    color: white;
+
+}
+.aside{
+    background-color: darkgoldenrod;
+    grid-area: aside;
+    height: 600px;
+
+    display: grid;
+    grid-template-areas: 
+    "aside1"
+    "vacio"
+    "aside2";
+}
+.aside1{
+    grid-area: aside1;
+    background-color: white;
+    color: darkgoldenrod;
+    height: 30%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 80px;
+}
+.vacio{
+    grid-area: vacio;
+    height: 30%;
+    padding: 80px;
+}
+.aside2{
+    grid-area: aside2;
+    background-color: white;
+    color: darkgoldenrod;
+    height: 40%;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 80px;
+}
+.contenido{
+    background-color: orange;
+    grid-area: contenido;
+    height: 600px;
+    color: white;
+
+    display: grid;
+    grid-template-areas: 
+    "contenido"
+    "texto";
+    gap:10px;
+}
+.conte{
+    grid-area: contenido;
+    border:5px solid white;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.texto{
+    grid-area: texto;
+    border:5px solid white;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footer{
+    background-color: brown;
+    grid-area: footer;
+    height: 221px;
+    color: white;
+
+}

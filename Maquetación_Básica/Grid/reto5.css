@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reto5{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid red;
+
+    display: grid;
+    grid-template-areas: 'botones tablero tablero tablero';
+}
+.botones{
+    grid-area: botones;
+    border: 2px solid black;
+    /* def grid area */
+    display: grid;
+    grid-template-areas:'contador'
+                        'vic1'
+                        'vic2'
+                        'reset';
+}
+.tablero{
+    grid-area: tablero;
+    background-color: grey;
+
+    /* def grid area */
+    display: grid;
+    grid-template-areas:'cas1 cas2 cas3'
+                        'cas4 cas5 cas6'
+                        'cas7 cas8 cas9';
+}
+.cas1{
+    background-color: white;
+}
+.cas2{
+    background-color: black;
+}
+.cas3{
+    background-color: white;
+}
+.cas4{
+    background-color: black;
+}
+.cas5{
+    background-color: white;
+}
+.cas6{
+    background-color: black;
+}

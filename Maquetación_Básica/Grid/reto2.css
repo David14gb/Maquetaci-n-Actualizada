@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    height: 100vh;
+}
+.a{
+    background-color: greenyellow;
+}
+.b{
+    background-color: black;
+    color: white;
+}

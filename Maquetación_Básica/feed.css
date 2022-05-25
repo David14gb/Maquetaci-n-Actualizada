@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column; 
     align-items: center; 
+    justify-content: center;
     width: 98.9vw;
     background-color: #fafafa;
 }
@@ -120,9 +121,11 @@ span{
 .story{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding-left: 4%;
     padding-right: 4%;
+    width: 100%;
 }
 .stories{
     display: flex;
@@ -131,6 +134,9 @@ span{
 }
 .story__texto{
     cursor: pointer;
+}
+.story__foto{
+    width: 100%;
 }
 .publicado{
     display: flex;
@@ -158,7 +164,7 @@ span{
 }
 .fotos_feed{
     height: 30%;
-    width: 30%;
+    width:  30%;
     cursor: pointer;
 
 }
