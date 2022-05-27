@@ -54,36 +54,43 @@ let gorro = new Ropa("xl", "azul", 10);
 
 let carrito = [];
 
-
-// function anadir(){
-//     carrito.push(camiseta)
-//     console.log(carrito);
-  
-// }
 jQuery(() => {
-    let price= 0;
+   
 $('#bt1').on('click', function(){
-
+    let price= 0;
     carrito.push(camiseta);
-    console.log(camiseta);
-    $("#mostrar2").html(camiseta);
+    $("#mostrar2").html('');
 
+    for(let i = 0; i<carrito.length; i++){
+        console.log(carrito[i]);
+        $("#mostrar2").prepend(`<p>${carrito[i]['precio']}<p>`)
+        price += carrito[i]['precio']
+    }
+    $("#mostrar2").append(`<p>${price}<p>`)
 })
 $("#bt2").on("click", function(){
+    let price= 0;
     carrito.push(pantalon)
     console.log(carrito);
-
+    $("#mostrar2").html('');
+    for(let i = 0; i<carrito.length; i++){
+        console.log(carrito[i]);
+        $("#mostrar2").prepend(`<p>${carrito[i]['precio']}<p>`)
+        price += carrito[i]['precio']
+    }
+    $("#mostrar2").append(`<p>${price}<p>`)
 })
 $("#bt3").on("click", function(){
+    let price= 0;
     carrito.push(gorro)
-    console.log(carrito);
-})
-    console.log(carrito);
-    for(let i = 0; i<carrito.length;i++){
-       price += carrito[i].precio
-    };
-    // $("#mostrar2").append(price);
-    $("#mostrar2").html(price);
-
+    $("#mostrar2").html('');
+    for(let i = 0; i<carrito.length; i++){
+        console.log(carrito[i]);
+        $("#mostrar2").prepend(`<p>${carrito[i]['precio']}<p>`)
+        price += carrito[i]['precio']
+    }
+    $("#mostrar2").append(`<p>${price}<p>`)
+}) 
 });
+
 
