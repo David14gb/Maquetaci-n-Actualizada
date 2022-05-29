@@ -47,9 +47,73 @@ button{
     width: 405px;   
     cursor: pointer;
 }
+button:hover{
+    background-color: darkorange;
+}
 h1{
     font-size: 39px;  
     text-align: letf; 
     padding-bottom: 20px; 
     color: black;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid bisque; */
+    border-radius: 5%;
+    padding: 5%;
+    /* background-color: bisque; */
+
+}
+a{
+    font-size: x-large;
+    font-weight: 700;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+a:hover{
+    border-bottom: 3px solid black;
+    transition: border-bottom 1s;
+}
+#pelis{
+    padding: 5%;
+    font-size:x-large;
+    color: black;
+    border: 5px dashed rgba(0, 0, 0, 0);
+    font-weight: 700;
+}
+#pelis:hover{
+    border: 5px dashed yellow;
+    transition: border 2s;
+}
+.pelis__mostradas{
+    font-size:x-large;
+    color: yellow;
+    text-align: center;
+    font-weight: 700;
+}
+.fotos__pelis{
+    height: 60%;
+    width: 100%;
+}
+.card{
+    border: 3px solid black;
+}
+.card:hover{
+    border: 3px solid yellow;
+}
+.pelis__vistas{
+    display:none;
+    text-align: center;
+    font-size:x-large;
+    color: yellow;
+    font-weight: 700;
+}
+body{
+    background-image: url("https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/5456.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.audio{
+    background-color: white;
 }
